@@ -23,3 +23,16 @@ Module 2 builds the admin-side interface that lets administrators manage quiz co
 2. **Quiz & Category Management:** Built forms to create new quiz categories and quizzes with configurable duration.
 3. **Question Management:** Implemented a form to add multiple-choice questions, storing 4 options and the correct answer per question.
 4. **Data Verification:** Validated that quizzes and their linked questions correctly save to and display from the database, with a management view listing live question counts per quiz.
+
+---
+
+## Module 3: Student Quiz Attempt & Scoring
+
+**Overview**
+Module 3 builds the student-facing quiz experience: students pick a quiz, answer timed multiple-choice questions, and receive an automatic score on submission.
+
+**Quiz Steps**
+1. **Quiz Listing:** Built a student home page that lists all available quizzes with category, question count, and duration.
+2. **Quiz Page:** Rendered each quiz's questions from the database with four radio-button options per question.
+3. **Countdown Timer:** Added a JavaScript timer that shows the time left and auto-submits the quiz when it reaches zero.
+4. **Score Calculation:** Compared submitted answers against the correct options in MySQL using PHP and saved each attempt to the `results` table.
