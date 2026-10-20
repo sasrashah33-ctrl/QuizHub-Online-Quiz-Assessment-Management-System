@@ -36,3 +36,16 @@ Module 3 builds the student-facing quiz experience: students pick a quiz, answer
 2. **Quiz Page:** Rendered each quiz's questions from the database with four radio-button options per question.
 3. **Countdown Timer:** Added a JavaScript timer that shows the time left and auto-submits the quiz when it reaches zero.
 4. **Score Calculation:** Compared submitted answers against the correct options in MySQL using PHP and saved each attempt to the `results` table.
+
+---
+
+## Module 4: Results, History & Leaderboard
+
+**Overview**
+Module 4 shows students their performance: an instant score after each quiz, a record of all past attempts, and a leaderboard ranking the best scores.
+
+**Results Steps**
+1. **Result Page:** Displayed the score, total questions, and percentage right after a quiz is submitted.
+2. **Quiz History:** Built a page listing every past attempt of the logged-in user with quiz title, score, and date.
+3. **Leaderboard:** Created a Top 10 ranking by joining the `results`, `users`, and `quizzes` tables in MySQL.
+4. **Data Security:** Each user can only view their own results, checked through the session on every page.
