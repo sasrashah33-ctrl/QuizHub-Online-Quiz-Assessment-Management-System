@@ -49,3 +49,16 @@ Module 4 shows students their performance: an instant score after each quiz, a r
 2. **Quiz History:** Built a page listing every past attempt of the logged-in user with quiz title, score, and date.
 3. **Leaderboard:** Created a Top 10 ranking by joining the `results`, `users`, and `quizzes` tables in MySQL.
 4. **Data Security:** Each user can only view their own results, checked through the session on every page.
+
+---
+
+## Module 5: Final Testing & Project Completion
+
+**Overview**
+Module 5 finalizes the project: the admin dashboard shows overall statistics, and the full system is tested end to end to make sure every module works together.
+
+**Final Steps**
+1. **Admin Dashboard:** Shows total quizzes, questions, students, and quiz attempts.
+2. **End-to-End Testing:** Tested registration, login, quiz attempts, scoring, history, leaderboard, and admin management (see `TESTING.md`).
+3. **Final Project Folder:** Uploaded the complete working `quizhub` project with all files together, so it can be run from one place.
+4. **Documentation:** Completed the README with all five modules and setup instructions.
